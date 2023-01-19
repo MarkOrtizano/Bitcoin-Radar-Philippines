@@ -1,0 +1,17 @@
+@use '../custom' as *;
+
+
+#map {
+    .col-12 {
+        iframe {
+    border: 1px solid #a1a1a1;
+    margin-bottom: 2rem;
+}
+}
+    
+    @media (max-width: 575.98px) {
+    h2 {
+        padding: 1.5rem 0;
+    }    
+}
+}

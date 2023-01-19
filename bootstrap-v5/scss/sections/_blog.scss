@@ -1,0 +1,11 @@
+@use "../custom" as *;
+@use "../components/mixins" as *;
+
+#blog {
+  background: url("../../images/headerblog.jpg") no-repeat center center/cover;
+  height: 35vh;
+}
+
+#blogContent ul li {
+  list-style: none;
+}

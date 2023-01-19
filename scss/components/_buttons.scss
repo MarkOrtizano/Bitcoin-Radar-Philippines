@@ -1,0 +1,42 @@
+@use '../custom' as *;
+@use '../components/mixins' as *;
+
+.btn-rounded {
+  position: relative;
+  padding: 0.9375rem 1.2rem 0.9375rem 1.2rem;
+  font-weight: 700;
+  margin: 0;
+  border: 0.1rem solid rgba($orange-bright, 0.6);
+  background: $gray-200;
+  color: $orange-light;
+
+/* NOT USING THE PHONE ICON */
+/*   span {
+    position: absolute;
+    background-color: $primary;
+    width: 2.5rem;
+    height: 2.5rem;
+    top: 50%; 
+    right: 5px;
+    transform: translateY(-50%);
+    border-radius: 50%;
+
+  } */
+  &:hover {
+    background-color: $orange-bright;
+    color: $white;
+
+}
+}
+
+button {
+
+    &:hover {
+      background-color: $orange-bright!important;
+      color: $white!important;
+    }
+    &:active {
+      background-color: $gray-200!important; 
+      border-color: none!important;
+    }
+}

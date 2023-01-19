@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Blog</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS v5.2.1 -->
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/fontawesome.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!--//////////////////////////////////////////////////////////////////
+                             START NAVBAR                             
+//////////////////////////////////////////////////////////////////////-->
+
+    <nav
+      class="navbar navbar-expand-lg navbar-light shadow bg-white sticky-top"
+    >
+      <div class="container-fluid">
+        <div class="d-flex align-items-center">
+          <a class="navbar-brand py-1" href="#"></a>
+          <img src="images/logo.png" alt="logo image" width="70" />
+          <form class="form-inline d-none d-sm-flex" action="#" id="search">
+            <div
+              class="input-label-absolute input-label-absolute-left input-expand ms-lg-2 ms-xl-3"
+            >
+              <label class="label-absolute" for="search_search">
+                <i class="fas fa-search"></i>
+              </label>
+              <input
+                class="form-control form-control-sm border-0 shadow-0 bg-gray-200"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+            </div>
+          </form>
+        </div>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarCollapse"
+          aria-controls="navbarCollapse"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- navbar collapse -->
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <!-- was #navbarSupportedContent -->
+          <form
+            class="form-inline mt-4 mb-2 d-sm-none"
+            action="#"
+            id="searchcollapsed"
+          >
+            <div class="input-label-absolute input-label-absolute-left w-100">
+              <label class="label-absolute" for="searchcollapsed_search">
+                <i class="fas fa-search"></i>
+              </label>
+              <input
+                class="form-control form-control-sm border-0 shadow-0 bg-gray-200"
+                id="searchcollapsed_search"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+            </div>
+          </form>
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item dropdown">
+              <a class="nav-link" id="homeDropdownMenuLink" href="index.html">
+                Home</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                id="servicesDropdownMenuLink"
+                href="index.html"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Services</a
+              >
+              <div class="dropdown-menu" aria-labelledby="homeDropdownMenuLink">
+                <a href="merchant.html" class="dropdown-item">Coffee Shop</a>
+                <a href="restaurant.html" class="dropdown-item">Restaurants</a>
+                <a href="#" class="dropdown-item">Hotels</a>
+                <a href="Resort-de-Boracay.html" class="dropdown-item"
+                  >Resorts</a
+                >
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="blog.html">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://pouch.ph/bitcoinisland"
+                >Bitcoin Island</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="faq.html"> FAQ </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html"> Contact </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                More
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Android App</a></li>
+                <li><a class="dropdown-item" href="#">Advertising</a></li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="https://globalmirandaminer.com/"
+                    >Learn To Trade</a
+                  >
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="https://bitcoin.org/en/bitcoin-for-businesses"
+                    >Bitcoin for Businesses</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <!--             <li class="nav-item">
+          <a
+            class="nav-link disabled"
+            href="#"
+            tabindex="-1"
+            aria-disabled="true"
+            >Disabled</a
+          >
+        </li> -->
+          </ul>
+          <button type="button" class="rounded-pill btn-rounded">
+            Add a listing
+            <!--             <span>
+          <i class="fas fa-phone-alt"></i>
+        </span> -->
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <header id="blog" class="site-header">
+      <div class="container">
+        <div class="pt-5 text-center">
+          <h1 class="display-2--intro text-primary">Blog | Bitcoin Radar PH</h1>
+          <h6>Bitcoin Radar - find location easily</h6>
+        </div>
+      </div>
+    </header>
+
+    <section id="blogContent" class="my-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-7">
+            <!--  <h3>Tedx talk from Coinme talking Bitcoin radar Importance</h3> -->
+            <figure>
+              <blockquote class="blockquote">
+                <h3>Tedx talk from Coinme talking Bitcoin radar Importance</h3>
+              </blockquote>
+              <figcaption class="blockquote-footer">
+                Bitcoin entrepreneur and enthusiast
+                <cite title="Source Title">Jad Mubaslat</cite>
+              </figcaption>
+            </figure>
+            <div class="">
+              <iframe
+                width="100%"
+                height="350"
+                src="https://www.youtube.com/embed/vROTmMzJnXk"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <p>
+              The hosts of one of the only Bitcoin-related radio shows in
+              America expressed concerns about how hard it is to buy Bitcoin and
+              what hurdles you face when you go through exchanges. Since it’s
+              always better to have different options for handling your crypto
+              transactions, they decided to give a call to Sung Choi, the vice
+              president of strategy and Business Development of Coinme – one of
+              the prominent Bitcoin ATM company in the world.
+            </p>
+            <h3 class="mb-3">The Advantages</h3>
+            <p>
+              Talking about the advantages of Bitcoin ATMs compared to
+              exchanges, Sung went a step further talking about the advantages
+              of using Coinme specifically. The main difference between them and
+              the more traditional Bitcoin ATM companies is that Coinme offers
+              an option to custody the funds on behalf of the user providing
+              them with a more bank-like experience. This practically means that
+              if anything goes wrong with your account Coinme will help you
+              recover your credentials, which is especially useful to those
+              customers that are not as tech-savvy. At the same time it brings
+              additional risks, as users don’t control the funds, and the users
+              can lose the funds like it happened with a recent FTX case.
+            </p>
+            <p>
+              Another thing that differentiates Coinme from others is its
+              business model. Namely, they do not do business with individual
+              store owners but only with larger enterprises. Their partnerships
+              with Coinstar and MoneyGram enabled them instant access to 21000
+              machines worldwide. So, the benefit here is obvious. As Sung
+              claims about 90% of Americans are within five minutes of a Coinme
+              location. Further on, using the existing infrastructure provides
+              their customers to consolidate the number of outlets that they use
+              for their finances. In other words, you can handle your fiat or
+              crypto transactions in one place.
+            </p>
+            <h3 class="mb-3">User Experience</h3>
+            <p>
+              After you go to coinme.com and find the nearest location, you can
+              go there and just put the money in and you will receive a voucher
+              that you can redeem in your Coinme wallet. You can create the
+              account before or after you generate the voucher, either way, it’s
+              valid. Verifying your account should not take more than a couple
+              of minutes and there are two different methods. You can use just
+              your phone number and SSN, which will allow you to handle
+              transactions up to $1,000. Or you can do a document verification
+              where you submit an ID and a selfie. This will set you up for
+              transactions up to $2,900. After you create the account and redeem
+              the voucher, you can send your Bitcoin to any other address you
+              like.
+            </p>
+            <p>
+              Coinme machines handle only cash for now and will charge an 11%
+              fee on Coinstar locations, while MoneyGram locations have a lower
+              fee of 4%. They also offer eight different assets other than
+              Bitcoin.
+            </p>
+            <h3 class="mb-3">The Community</h3>
+            <p>
+              Talking about the advantages of Bitcoin ATMs compared to
+              exchanges, Sung went a step further talking about the advantages
+              of using Coinme specifically. The main difference between them and
+              the more Coinme is a proud community educator since 2014, helping
+              the public understand how crypto works and what are the benefits.
+              They even partnered with other companies and pushed out a campaign
+              called crypto literacy where you can go and actually take a small
+              test to see how crypto-literate you are. Sung also shared an
+              interesting story from back in the day when they got a lot of
+              calls from entrepreneurs wanting to know how crypto works since
+              sellers from Alibaba asked them to pay in crypto because of huge
+              PayPal fees. Having access to a huge number of locations through
+              partnerships with Coinstar and MoneyGram allows Coinme the
+              opportunity to gain insight into the demographic trends of the
+              crypto community. Apart from the fact that most Bitcoin ATMs users
+              are either unbanked or underbanked, they noticed an interesting
+              rise in the number of generation Z customers meaning that a lot of
+              younger people choose to stick with cash, rather than using the
+              traditional banking system.
+            </p>
+          </div>
+          <div class="col-md-4">
+            <div class="p-3">
+              <div class="bg-gray-200 my-4 p-3">
+                <h4>The Advantages</h4>
+                <p>
+                  Help merchant to reach more engagement to customer laudantium.
+                  Inventore consectetur aliquid voluptatibus neque magnam sed.
+                  Ullam ex odit dicta blanditiis.
+                </p>
+              </div>
+              <div class="text-center">
+                <img src="./images/ads.png" alt="" />
+              </div>
+              <div class="bg-gray-200 my-4 p-3">
+                <h4>Related Posts</h4>
+                <ul class="related">
+                  <li><a href="#">Bitcoin</a></li>
+                  <li><a href="#">Ethereum</a></li>
+                  <li><a href="#">Doge Coin</a></li>
+                  <li><a href="#">Solana</a></li>
+                  <li><a href="#">Smooth Love Potion</a></li>
+                </ul>
+              </div>
+              <div class="bg-gray-200 my-4 p-3">
+                <h4>Recent Posts</h4>
+                <ul>
+                  <li><a href="#">Hero Mine</a></li>
+                  <li><a href="#">Scam</a></li>
+                  <li><a href="#">Cash Baka</a></li>
+                  <li><a href="#">Crpyto Blade</a></li>
+                  <li><a href="#">DefiPet</a></li>
+                </ul>
+              </div>
+              <div class="bg-gray-200 my-4 p-3">
+                <h4>Tags</h4>
+                <p>
+                  <a href="#">rem ipsum dolor, sit amet consectetur</a>
+                  <a href="#">rem ipsum dolor, sit amet consectetur</a
+                  ><a href="#">rem ipsum dolor, sit amet consectetur</a
+                  ><a href="#">rem ipsum dolor, sit amet consectetur</a
+                  ><a href="#">rem ipsum dolor, sit amet consectetur</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer py5">
+      <div class="container">
+        <div class="row">
+          <!-- CONTENT FOR THE MOBILE NUMBER  -->
+          <div
+            class="col-md-4 col-lg-4 contact-box pt-1 d-md-block d-lg-flex d-flex"
+          >
+            <div class="contact-box__icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="icon icon-tabler icon-tabler-phone-call"
+                viewBox="0 0 24 24"
+                stroke-width="1"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path
+                  d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2"
+                />
+                <path d="M15 7a2 2 0 0 1 2 2" />
+                <path d="M15 3a6 6 0 0 1 6 6" />
+              </svg>
+            </div>
+            <div class="contact-box__info">
+              <a href="#" class="contact-box__info--title">+64 9123456789</a>
+              <p class="contact-box__info--subtitle">Mon-Fri 9am-6pm</p>
+            </div>
+          </div>
+          <!-- CONTENT FOR EMAIL  -->
+          <div
+            class="col-md-4 col-lg-4 contact-box pt-1 d-md-block d-lg-flex d-flex"
+          >
+            <div class="contact-box__icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="icon icon-tabler icon-tabler-mail-opened"
+                viewBox="0 0 24 24"
+                stroke-width="1"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <polyline points="3 9 12 15 21 9 12 3 3 9" />
+                <path d="M21 9v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10" />
+                <line x1="3" y1="19" x2="9" y2="13" />
+                <line x1="15" y1="13" x2="21" y2="19" />
+              </svg>
+            </div>
+            <div class="contact-box__info">
+              <a href="#" class="contact-box__info--title"
+                >info@btcradarph.com</a
+              >
+              <p class="contact-box__info--subtitle">Online support</p>
+            </div>
+          </div>
+          <!-- CONTENT FOR LOCATION  -->
+          <div
+            class="col-md-4 col-lg-4 contact-box pt-1 d-md-block d-lg-flex d-flex"
+          >
+            <div class="contact-box__icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="icon icon-tabler icon-tabler-map-2"
+                viewBox="0 0 24 24"
+                stroke-width="1"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <line x1="18" y1="6" x2="18" y2="6.01" />
+                <path d="M18 13l-3.5 -5a4 4 0 1 1 7 0l-3.5 5" />
+                <polyline
+                  points="10.5 4.75 9 4 3 7 3 20 9 17 15 20 21 17 21 15"
+                />
+                <line x1="9" y1="4" x2="9" y2="17" />
+                <line x1="15" y1="15" x2="15" y2="20" />
+              </svg>
+            </div>
+            <div class="contact-box__info">
+              <a href="#" class="contact-box__info--title"
+                >Manila, Philippines</a
+              >
+              <p class="contact-box__info--subtitle">MA 10012, PH</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- START THE SOCIAL MEDIA CONTENT  -->
+      <div class="footer-sm" style="background-color: #212121">
+        <div class="container">
+          <div class="row py-4 text-center text-white">
+            <div class="col-lg-5 col-md-6 mb-4 mb-md-0">
+              connect with us on social media
+            </div>
+            <div class="col-lg-7 col-md-6">
+              <a href="#"><i class="fab fa-facebook"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-github"></i></a>
+              <a href="#"><i class="fab fa-linkedin"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- START THE CONTENT FOR THE CAMPANY INFO -->
+      <div class="container mt-5">
+        <div class="row text-white justify-content-center mt-3 pb-3">
+          <div class="col-12 col-sm-6 col-lg-6 mx-auto">
+            <h5 class="text-capitalize fw-bold">Support Bitcoinradar.ph</h5>
+            <hr
+              class="bg-white d-inline-block mb-4"
+              style="width: 60px; height: 2px"
+            />
+            <p class="lh-lg">
+              <a href="bitcoin:3E12ociqZa9mZUSwGdSmAEMAoAxBK3FNDcd"
+                >3E8ociqZa9mZUSwGdS</a
+              >
+            </p>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-2 mb-4 mx-auto">
+            <h5 class="text-capitalize fw-bold">Services</h5>
+            <hr
+              class="bg-white d-inline-block mb-4"
+              style="width: 60px; height: 2px"
+            />
+            <ul class="list-inline campany-list">
+              <li><a href="#">Hotels</a></li>
+              <li><a href="#">Beach Resorts</a></li>
+              <li><a href="#">Restaurants</a></li>
+              <li><a href="#">Other Services</a></li>
+            </ul>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-2 mb-4 mx-auto">
+            <h5 class="text-capitalize fw-bold">Businesses</h5>
+            <hr
+              class="bg-white d-inline-block mb-4"
+              style="width: 60px; height: 2px"
+            />
+            <ul class="list-inline campany-list">
+              <li>
+                <a
+                  href="https://coinatmradar.com/blog/how-to-start-a-bitcoin-atm-business/"
+                  >Launch a bitcoin ATM</a
+                >
+              </li>
+              <li><a href="#">Bitcoin ATM Store</a></li>
+              <li><a href="#">How It Works</a></li>
+              <li><a href="#">FAQ</a></li>
+            </ul>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-2 mb-4 mx-auto">
+            <h5 class="text-capitalize fw-bold">Participate</h5>
+            <hr
+              class="bg-white d-inline-block mb-4"
+              style="width: 60px; height: 2px"
+            />
+            <ul class="list-inline campany-list">
+              <li><a href="#">Support Local Businesses</a></li>
+              <li><a href="#">Buy Bitcoin</a></li>
+              <li><a href="#">Mine Bitcoin</a></li>
+              <li><a href="#">Development</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- START THE COPYRIGHT INFO  -->
+      <div class="footer-bottom pt-5 pb-5">
+        <div class="container">
+          <div class="row text-center text-white">
+            <div class="col-12">
+              <div class="footer-bottom__copyright">
+                &COPY; Copyright 2023 <a href="#">Bitcoin Radar PH</a> | Created
+                by
+                <a href="#" target="_blank">Group 8</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+      integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

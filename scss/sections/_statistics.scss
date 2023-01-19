@@ -1,0 +1,54 @@
+@use '../custom' as *;
+
+
+
+.statistics {
+  padding:  0 0 6rem 0;
+
+  li {
+    list-style: none;
+    border-right:1px solid $border-bright;
+  }
+
+  &__stats-box {
+      max-width: 100%;
+      height: 12rem;
+      margin-bottom: 2rem;
+      padding: 0.7rem;
+      text-align: center;
+      position: relative;
+
+      h4 {
+        padding: 1.5rem 0 0.5rem;
+        font-size: 2rem;
+        color: $secondary;
+          &:hover {
+              filter: grayscale(120);
+          }
+      }
+
+      h5 {
+        font-size: 48px;
+        letter-spacing: -1px;
+        font-weight: bold;
+        margin: 0;
+      }
+
+      h6 {
+        font-size: 18px;
+        font-weight: normal;
+        margin-top: 0.4em;
+      }
+  }
+}
+
+@media screen and (max-width: 768px){
+  .statistics {
+    padding:  0 0 6rem 0;
+    li {
+      list-style: none;
+      border-right:none;
+      border-bottom:1px solid $border-bright;
+    }
+  }
+}

@@ -1,0 +1,7 @@
+@use "../components/mixins" as *;
+@use "../custom" as *;
+
+#contact {
+  background: url("../../images/headerblog.jpg") no-repeat center center/cover;
+  height: 40vh;
+}

@@ -1,0 +1,95 @@
+@use "../components/mixins" as *;
+@use "../custom" as *;
+
+#showcaseResort:before {
+  content: "";
+  background: url("../../images/resortheader.jpg") no-repeat center center/cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  opacity: 0.5;
+}
+
+#showcaseResort .showcase-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center;
+  height: 45vh;
+}
+
+#showcaseResort .showcase-content {
+  z-index: 5;
+}
+
+#showcaseCoffee:before {
+  content: "";
+  background: url("../../images/coffeeheader.jpg") no-repeat center center/cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  opacity: 0.5;
+}
+
+#showcaseCoffee .showcase-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center;
+  height: 45vh;
+}
+
+#showcaseCoffee .showcase-content {
+  z-index: 5;
+}
+
+#showcaseHotel:before {
+  content: "";
+  background: url("../../images/hotelheader.jpg") no-repeat center center/cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  opacity: 0.5;
+}
+
+#showcaseHotel .showcase-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center;
+  height: 45vh;
+}
+
+#showcaseHotel .showcase-content {
+  z-index: 5;
+}
+
+#showcaseRestaurant:before {
+  content: "";
+  background: url("../../images/restaurantheader.jpg") no-repeat center
+    center/cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  opacity: 0.5;
+}
+
+#showcaseRestaurant .showcase-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center;
+  height: 45vh;
+}
+
+#showcaseRestaurant .showcase-content {
+  z-index: 5;
+}

@@ -1,0 +1,12 @@
+@use "../components/mixins" as *;
+@use "../custom" as *;
+
+#restaurant img {
+  height: 350px;
+  width: 100px;
+}
+
+#resort img {
+  height: 350px;
+  width: 100px;
+}

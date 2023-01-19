@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS v5.2.1 -->
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/fontawesome.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet" />
+  </head>
+
+  <body>
+    <!--//////////////////////////////////////////////////////////////////
+                             START NAVBAR                             
+//////////////////////////////////////////////////////////////////////-->
+
+    <nav
+      class="navbar navbar-expand-lg navbar-light shadow bg-white sticky-top">
+      <div class="container-fluid">
+        <div class="d-flex align-items-center">
+          <a class="navbar-brand py-1" href="#"></a>
+          <img src="images/logo.png" alt="logo image" width="70" />
+          <form class="form-inline d-none d-sm-flex" action="#" id="search">
+            <div
+              class="input-label-absolute input-label-absolute-left input-expand ms-lg-2 ms-xl-3">
+              <label class="label-absolute" for="search_search">
+                <i class="fas fa-search"></i>
+              </label>
+              <input
+                class="form-control form-control-sm border-0 shadow-0 bg-gray-200"
+                type="search"
+                placeholder="Search"
+                aria-label="Search" />
+            </div>
+          </form>
+        </div>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarCollapse"
+          aria-controls="navbarCollapse"
+          aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- navbar collapse -->
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <!-- was #navbarSupportedContent -->
+          <form
+            class="form-inline mt-4 mb-2 d-sm-none"
+            action="#"
+            id="searchcollapsed">
+            <div class="input-label-absolute input-label-absolute-left w-100">
+              <label class="label-absolute" for="searchcollapsed_search">
+                <i class="fas fa-search"></i>
+              </label>
+              <input
+                class="form-control form-control-sm border-0 shadow-0 bg-gray-200"
+                id="searchcollapsed_search"
+                type="search"
+                placeholder="Search"
+                aria-label="Search" />
+            </div>
+          </form>
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item dropdown">
+              <a class="nav-link" id="homeDropdownMenuLink" href="index.html">
+                Home</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                id="servicesDropdownMenuLink"
+                href="index.html"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Services</a
+              >
+              <div class="dropdown-menu" aria-labelledby="homeDropdownMenuLink">
+                <a href="merchant.html" class="dropdown-item">Coffee Shop</a>
+                <a href="restaurant.html" class="dropdown-item">Restaurants</a>
+                <a href="#" class="dropdown-item">Hotels</a>
+                <a href="Resort-de-Boracay.html" class="dropdown-item"
+                  >Resorts</a
+                >
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="blog.html">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://pouch.ph/bitcoinisland"
+                >Bitcoin Island</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="faq.html"> FAQ </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html"> Contact </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false">
+                More
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Android App</a></li>
+                <li><a class="dropdown-item" href="#">Advertising</a></li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="https://globalmirandaminer.com/"
+                    >Learn To Trade</a
+                  >
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="https://bitcoin.org/en/bitcoin-for-businesses"
+                    >Bitcoin for Businesses</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <!--             <li class="nav-item">
+    <a
+      class="nav-link disabled"
+      href="#"
+      tabindex="-1"
+      aria-disabled="true"
+      >Disabled</a
+    >
+  </li> -->
+          </ul>
+          <button type="button" class="rounded-pill btn-rounded">
+            Add a listing
+            <!--             <span>
+    <i class="fas fa-phone-alt"></i>
+  </span> -->
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <header id="faq" class="">
+      <div class="container">
+        <div class="pt-5 text-center">
+          <h1 class="display-2--intro text-primary">
+            Frequently Asked Question
+          </h1>
+          <h6>Find answers to recurring questions and myths about Bitcoin.</h6>
+        </div>
+      </div>
+    </header>
+
+    <section id="faqcontent" class="my-3">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-2 border-end">
+            <div class="accordion">
+              <div class="card">
+                <div class="card-header bg-transparent border-bottom-0">
+                  <a class="btn" data-bs-toggle="collapse" href="#collapseone"
+                    ><strong>General</strong></a
+                  >
+                </div>
+                <div
+                  id="collapseone"
+                  class="collapse"
+                  data-bs-parent="accordion">
+                  <div class="card-body">
+                    <a href="#what">What is Bitcoin?</a>
+                  </div>
+                  <div class="card-body">
+                    <a href="#created">Who Created Bitcoin</a>
+                  </div>
+                  <div class="card-body">
+                    <a href="#legal">Is Bitcoin legal?</a>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header bg-transparent border-bottom-0">
+                  <a class="btn" data-bs-toggle="collapse" href="#collapsetwo"
+                    ><strong>Economy</strong></a
+                  >
+                </div>
+                <div
+                  id="collapsetwo"
+                  class="collapse"
+                  data-bs-parent="accordion">
+                  <div class="card-body">
+                    <a href="#how">How are bitcoins created?</a>
+                  </div>
+                  <div class="card-body">
+                    <a href="#value">Why do bitcoins have value?</a>
+                  </div>
+                  <div class="card-body">
+                    <a href="#price">What determines bitcoin’s price?</a>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header bg-transparent border-bottom-0">
+                  <a class="btn" data-bs-toggle="collapse" href="#collapsethree"
+                    ><strong>Transanctions</strong></a
+                  >
+                </div>
+                <div
+                  id="collapsethree"
+                  class="collapse"
+                  data-bs-parent="accordion">
+                  <div class="card-body">
+                    <a href="#confirmation"
+                      >Why do I have to wait for confirmation?</a
+                    >
+                  </div>
+                  <div class="card-body">
+                    <a href="#fee">How much will the transaction fee be?</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-8 px-5 border-end">
+            <div id="general">
+              <h3 class="text-primary">General</h3>
+              <h5 id="what">What is Bitcoin?</h5>
+              <p>
+                Bitcoin is a consensus network that enables a new payment system
+                and a completely digital money. It is the first decentralized
+                peer-to-peer payment network that is powered by its users with
+                no central authority or middlemen. From a user perspective,
+                Bitcoin is pretty much like cash for the Internet. Bitcoin can
+                also be seen as the most prominent triple entry bookkeeping
+                system in existence.
+              </p>
+              <h5 id="created">Who Created Bitcoin?</h5>
+              <p>
+                Bitcoin is the first implementation of a concept called
+                "cryptocurrency", which was first described in 1998 by Wei Dai
+                on the cypherpunks mailing list, suggesting the idea of a new
+                form of money that uses cryptography to control its creation and
+                transactions, rather than a central authority. The first Bitcoin
+                specification and proof of concept was published in 2009 in a
+                cryptography mailing list by Satoshi Nakamoto. Satoshi left the
+                project in late 2010 without revealing much about himself. The
+                community has since grown exponentially with many developers
+                working on Bitcoin.
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Aspernatur nulla impedit voluptatum asperiores harum fugit
+                alias. Doloribus consequuntur omnis cumque.
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
+                obcaecati explicabo, aperiam quaerat autem dignissimos sit?
+                Dignis simos ea fugiat ducimus temporibus, veritatis debitis, in
+                sint soluta modi eos laborum animi.
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Aspernatur nulla impedit voluptatum asperiores harum fugit
+                alias. Doloribus consequuntur omnis cumque.
+              </p>
+              <h5 id="legal">Is Bitcoin Legal?</h5>
+              <p>
+                Bitcoin is the first implementation of a concept called
+                "cryptocurrency", which was first described in 1998 by Wei Dai
+                on the cypherpunks mailing list, suggesting the idea of a new
+                form of money that uses cryptography to control its creation and
+                transactions, rather than a central authority. The first Bitcoin
+                specification and proof of concept was published in 2009 in a
+                cryptography mailing list by Satoshi Nakamoto. Satoshi left the
+                project in late 2010 without revealing much about himself. The
+                community has since grown exponentially with many developers
+                working on Bitcoin.
+              </p>
+            </div>
+            <div id="economy">
+              <h3 class="text-primary">Economy</h3>
+              <h5 id="how">How are bitcoin created?</h5>
+              <p>
+                New bitcoins are generated by a competitive and decentralized
+                process called "mining". This process involves that individuals
+                are rewarded by the network for their services. Bitcoin miners
+                are processing transactions and securing the network using
+                specialized hardware and are collecting new bitcoins in
+                exchange.
+              </p>
+              <h5 id="value">Why do bitcoins have value?</h5>
+              <p>
+                Bitcoins have value because they are useful as a form of money.
+                Bitcoin has the characteristics of money (durability,
+                portability, fungibility, scarcity, divisibility, and
+                recognizability) based on the properties of mathematics rather
+                than relying on physical properties (like gold and silver) or
+                trust in central authorities (like fiat currencies). In short,
+                Bitcoin is backed by mathematics. With these attributes, all
+                that is required for a form of money to hold value is trust and
+                adoption. In the case of Bitcoin, this can be measured by its
+                growing base of users, merchants, and startups. As with all
+                currency, bitcoin's value comes only and directly from people
+                willing to accept them as payment.
+              </p>
+              <h5 id="price">What determines bitcoin’s price?</h5>
+              <p>
+                The price of a bitcoin is determined by supply and demand. When
+                demand for bitcoins increases, the price increases, and when
+                demand falls, the price falls. There is only a limited number of
+                bitcoins in circulation and new bitcoins are created at a
+                predictable and decreasing rate, which means that demand must
+                follow this level of inflation to keep the price stable. Because
+                Bitcoin is still a relatively small market compared to what it
+                could be, it doesn't take significant amounts of money to move
+                the market price up or down, and thus the price of a bitcoin is
+                still very volatile.
+              </p>
+              <h3 class="text-primary">Transactions</h3>
+              <h5 id="confirmation">Why do I have to wait for confirmation?</h5>
+              <p>
+                Receiving notification of a payment is almost instant with
+                Bitcoin. However, there is a delay before the network begins to
+                confirm your transaction by including it in a block. A
+                confirmation means that there is a consensus on the network that
+                the bitcoins you received haven't been sent to anyone else and
+                are considered your property. Once your transaction has been
+                included in one block, it will continue to be buried under every
+                block after it, which will exponentially consolidate this
+                consensus and decrease the risk of a reversed transaction. Each
+                confirmation takes between a few seconds and 90 minutes, with 10
+                minutes being the average. If the transaction pays too low a fee
+                or is otherwise atypical, getting the first confirmation can
+                take much longer. Every user is free to determine at what point
+                they consider a transaction sufficiently confirmed, but 6
+                confirmations is often considered to be as safe as waiting 6
+                months on a credit card transaction.
+              </p>
+              <h5 id="fee">How much will the transaction fee be?</h5>
+              <p>
+                Transactions can be processed without fees, but trying to send
+                free transactions can require waiting days or weeks. Although
+                fees may increase over time, normal fees currently only cost a
+                tiny amount. By default, all Bitcoin wallets listed on
+                Bitcoin.org add what they think is an appropriate fee to your
+                transactions; most of those wallets will also give you chance to
+                review the fee before sending the transaction.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer py5">
+      <div class="container">
+        <div class="row">
+          <!-- CONTENT FOR THE MOBILE NUMBER  -->
+          <div
+            class="col-md-4 col-lg-4 contact-box pt-1 d-md-block d-lg-flex d-flex">
+            <div class="contact-box__icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="icon icon-tabler icon-tabler-phone-call"
+                viewBox="0 0 24 24"
+                stroke-width="1"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path
+                  d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" />
+                <path d="M15 7a2 2 0 0 1 2 2" />
+                <path d="M15 3a6 6 0 0 1 6 6" />
+              </svg>
+            </div>
+            <div class="contact-box__info">
+              <a href="#" class="contact-box__info--title">+64 9123456789</a>
+              <p class="contact-box__info--subtitle">Mon-Fri 9am-6pm</p>
+            </div>
+          </div>
+          <!-- CONTENT FOR EMAIL  -->
+          <div
+            class="col-md-4 col-lg-4 contact-box pt-1 d-md-block d-lg-flex d-flex">
+            <div class="contact-box__icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="icon icon-tabler icon-tabler-mail-opened"
+                viewBox="0 0 24 24"
+                stroke-width="1"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <polyline points="3 9 12 15 21 9 12 3 3 9" />
+                <path d="M21 9v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10" />
+                <line x1="3" y1="19" x2="9" y2="13" />
+                <line x1="15" y1="13" x2="21" y2="19" />
+              </svg>
+            </div>
+            <div class="contact-box__info">
+              <a href="#" class="contact-box__info--title"
+                >info@btcradarph.com</a
+              >
+              <p class="contact-box__info--subtitle">Online support</p>
+            </div>
+          </div>
+          <!-- CONTENT FOR LOCATION  -->
+          <div
+            class="col-md-4 col-lg-4 contact-box pt-1 d-md-block d-lg-flex d-flex">
+            <div class="contact-box__icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="icon icon-tabler icon-tabler-map-2"
+                viewBox="0 0 24 24"
+                stroke-width="1"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <line x1="18" y1="6" x2="18" y2="6.01" />
+                <path d="M18 13l-3.5 -5a4 4 0 1 1 7 0l-3.5 5" />
+                <polyline
+                  points="10.5 4.75 9 4 3 7 3 20 9 17 15 20 21 17 21 15" />
+                <line x1="9" y1="4" x2="9" y2="17" />
+                <line x1="15" y1="15" x2="15" y2="20" />
+              </svg>
+            </div>
+            <div class="contact-box__info">
+              <a href="#" class="contact-box__info--title"
+                >Manila, Philippines</a
+              >
+              <p class="contact-box__info--subtitle">MA 10012, PH</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- START THE SOCIAL MEDIA CONTENT  -->
+      <div class="footer-sm" style="background-color: #212121">
+        <div class="container">
+          <div class="row py-4 text-center text-white">
+            <div class="col-lg-5 col-md-6 mb-4 mb-md-0">
+              connect with us on social media
+            </div>
+            <div class="col-lg-7 col-md-6">
+              <a href="#"><i class="fab fa-facebook"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-github"></i></a>
+              <a href="#"><i class="fab fa-linkedin"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- START THE CONTENT FOR THE CAMPANY INFO -->
+      <div class="container mt-5">
+        <div class="row text-white justify-content-center mt-3 pb-3">
+          <div class="col-12 col-sm-6 col-lg-6 mx-auto">
+            <h5 class="text-capitalize fw-bold">Support Bitcoinradar.ph</h5>
+            <hr
+              class="bg-white d-inline-block mb-4"
+              style="width: 60px; height: 2px" />
+            <p class="lh-lg">
+              <a href="bitcoin:3E12ociqZa9mZUSwGdSmAEMAoAxBK3FNDcd"
+                >3E8ociqZa9mZUSwGdS</a
+              >
+            </p>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-2 mb-4 mx-auto">
+            <h5 class="text-capitalize fw-bold">Services</h5>
+            <hr
+              class="bg-white d-inline-block mb-4"
+              style="width: 60px; height: 2px" />
+            <ul class="list-inline campany-list">
+              <li><a href="#">Hotels</a></li>
+              <li><a href="#">Beach Resorts</a></li>
+              <li><a href="#">Restaurants</a></li>
+              <li><a href="#">Other Services</a></li>
+            </ul>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-2 mb-4 mx-auto">
+            <h5 class="text-capitalize fw-bold">Businesses</h5>
+            <hr
+              class="bg-white d-inline-block mb-4"
+              style="width: 60px; height: 2px" />
+            <ul class="list-inline campany-list">
+              <li>
+                <a
+                  href="https://coinatmradar.com/blog/how-to-start-a-bitcoin-atm-business/"
+                  >Launch a bitcoin ATM</a
+                >
+              </li>
+              <li><a href="#">Bitcoin ATM Store</a></li>
+              <li><a href="#">How It Works</a></li>
+              <li><a href="#">FAQ</a></li>
+            </ul>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-2 mb-4 mx-auto">
+            <h5 class="text-capitalize fw-bold">Participate</h5>
+            <hr
+              class="bg-white d-inline-block mb-4"
+              style="width: 60px; height: 2px" />
+            <ul class="list-inline campany-list">
+              <li><a href="#">Support Local Businesses</a></li>
+              <li><a href="#">Buy Bitcoin</a></li>
+              <li><a href="#">Mine Bitcoin</a></li>
+              <li><a href="#">Development</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- START THE COPYRIGHT INFO  -->
+      <div class="footer-bottom pt-5 pb-5">
+        <div class="container">
+          <div class="row text-center text-white">
+            <div class="col-12">
+              <div class="footer-bottom__copyright">
+                &COPY; Copyright 2023 <a href="#">Bitcoin Radar PH</a> | Created
+                by
+                <a href="#" target="_blank">Group 8</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+      integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+      crossorigin="anonymous"></script>
+  </body>
+</html>
